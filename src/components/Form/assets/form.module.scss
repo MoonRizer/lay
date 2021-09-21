@@ -1,0 +1,40 @@
+
+.container {
+    min-height: 100vh;
+    max-width: 1920px;
+    
+    box-sizing: border-box;
+    background: #F6F6F6 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main {
+    // height: 100%;
+    // padding: 50px 0;
+    // max-width: 1440px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topInput {
+    h2 {
+        font-weight: 400;
+        font-size: 36px;
+        margin: 10px 0;
+    }
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    p {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
